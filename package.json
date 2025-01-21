@@ -1,0 +1,21 @@
+{
+    "name": "my-home",
+    "module": "server.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "bun --watch --port=3000 run server.ts"
+    },
+    "dependencies": {
+        "bun": "^1.1.45",
+        "figlet": "^1.8.0",
+        "hono": "^4.6.17",
+        "my-home": "."
+    },
+    "devDependencies": {
+        "@types/bun": "^1.1.17",
+        "@types/figlet": "^1.7.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
